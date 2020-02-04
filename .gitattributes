@@ -1,0 +1,9 @@
+extlib/** linguist-generated=true
+*.png linguist-generated=true
+*.jpg linguist-generated=true
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.vs linguist-language=GLSL
+*.fs linguist-language=GLSL
+blender_models/** filter=lfs diff=lfs merge=lfs -text
+resources/** filter=lfs diff=lfs merge=lfs -text
+*.obj linguist-generated=true
