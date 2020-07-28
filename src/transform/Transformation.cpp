@@ -74,7 +74,7 @@ void Transformation::setGlobalOrientation(const glm::quat& orientation)
     // Make sure the input orientation is normalized
     glm::quat nOrientation = glm::normalize(orientation);
     // Remove the current orientation from the position
-    m_globalPosition = m_globalPosition * glm::normalize(glm::conjugate(m_localOrientation) * nOrientation);
+    m_globalPosition = m_globalPosition * glm::normalize(glm::conjugate(m_globalOrientation) * nOrientation);
     // Set new orientation
     m_globalOrientation = nOrientation;
     // Apply new orientation to position
