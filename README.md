@@ -6,6 +6,8 @@ This project is an interactive scene of a house rendered in OpenGL. It's essenti
 a small 3D renderer since all of the assets are loaded and added into the render  
 system.
 
+[Demo Video](https://youtu.be/slwNs35RcYk)
+
 ### Controls
 WASD for forward/left/back/right movement.  
 Z & X for up/down movement.  
